@@ -5,7 +5,7 @@
   }
 
   .root{
-    margin: 0;
+    height: 100%;
   }
   
   .navigation {
@@ -78,8 +78,9 @@
   /* banner styling */
   .banner {
     /* border: 2px solid black; */
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    /* padding-top: 60vh; */
+    height: 90vh;
     /* background-image: url("../images/banner2.png"); */
     /* background-image: linear-gradient(to right, #f3fafe, #2f9ee5); */
     /* background-image: linear-gradient(to left, #f3fafe, #2f9ee5); */
@@ -142,6 +143,7 @@
     color: white;
     background-color: black;
     padding: 0 50px;
+
     /* padding: 30px; */
   }
 
@@ -165,3 +167,5 @@
     color: white;
     text-decoration: none;
   }
+
+  
