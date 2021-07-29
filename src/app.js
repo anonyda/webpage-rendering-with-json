@@ -11,7 +11,6 @@ fetch(dataURL)
         return response.json();
     })
     .then((data) => {
-        console.log(data);
         rootDiv.appendChild(NavigationBar(data.navigation));
         rootDiv.appendChild(Banner(data.banner));
         rootDiv.appendChild(Footer(data.footer));
