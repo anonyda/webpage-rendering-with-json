@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .root{
+    margin: 0;
+  }
+  
+  .navigation {
+    background-color: #f3f9fa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .company-logo {
+    width: 150px;
+  }
+  
+  .logo {
+    width: 100%;
+  }
+  
+  .nav-container {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-container :last-child {
+    margin: 0px;
+  }
+  .nav-item {
+    list-style: none;
+    margin: 10px 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  /* .nav-link:hover {
+    border-bottom: 2px solid black;
+  } */
+  
+  .btn {
+    padding: 8px 20px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: rgba(61, 59, 59, 0.815);
+  }
+  
+  /* hamburger menu */
+  .hamburger-menu {
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .hamburger-menu img {
+    width: 100%;
+  }
+  
+  /* close hamburger */
+  
+  /* banner styling */
+  .banner {
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 80vh;
+    /* background-image: url("../images/banner2.png"); */
+    /* background-image: linear-gradient(to right, #f3fafe, #2f9ee5); */
+    /* background-image: linear-gradient(to left, #f3fafe, #2f9ee5); */
+    /* background-image: linear-gradient(#f3fafe98, #2f9fe552),
+      url("../images/banner2.png"); */
+    /* background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.438),
+        rgba(0, 0, 0, 0.753)
+      ),
+      linear-gradient(to left, #f3fafe5e, #2f9fe55b), url("../images/banner2.png"); */
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.438),
+        rgba(0, 0, 0, 0.753)
+      ),
+      url("../images/banner2.png");
+    background-repeat: no-repeat;
+    /* background-size: auto 100%; */
+    background-position: right;
+    background-size: cover;
+    /* background-size: contain; */
+    /* position the content  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .banner-heading,
+  .banner-tagline,
+  .banner .btn {
+    margin: 10px 100px;
+  }
+  
+  .banner-tagline {
+    font-weight: bold;
+    font-size: 1.6rem;
+    /* color: white; */
+  }
+  
+  .banner .btn {
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .banner :last-child {
+    /* background: white; */
+    background-color: black;
+    color: white;
+    /* color: black; */
+  }  
+
+  footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 0 50px;
+    /* padding: 30px; */
+  }
+
+
+
+  .social-links ul{
+    /* width: 100%; */
+    display: flex;
+    list-style: none;
+
+  }
+
+  .social-links ul li{
+    margin: 20px;
+    font-size: 25px;
+
+    /* color: wheat; */
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }

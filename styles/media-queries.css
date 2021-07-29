@@ -1,0 +1,31 @@
+@media (max-width: 576px) {
+    .hamburger-menu {
+      
+      display: unset;
+    }
+    .nav-container {
+      display: none;
+    }
+    .open-nav {
+      display: flex;
+      width: 100%;
+      /* border: 2px solid red; */
+      border-top: 1px solid black;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+  
+    .open-nav .nav-item {
+      margin-top: 5px;
+    }
+  
+    .banner {
+      height: 60vh;
+      text-align: center;
+      align-items: center;
+    }
+    .banner-heading,
+    .banner-tagline {
+      width: 80%;
+    }
+} ;

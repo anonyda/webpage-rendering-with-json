@@ -1,0 +1,12 @@
+Render a frontend web page using data from external source.
+ (https://niravkpatel28.github.io/json-data-server-v2/webpage/webpage.json)  sample json data.
+
+Improve the webpage design by changing the structure of webpage.json.
+
+Add components like
+    Sections ( our work / our team any one choice )
+    Footer ( with proper nav links )
+    
+Host this static json file in your own repository and connect it with your frontend web page rendering application
+
+Use promises to make http requests
