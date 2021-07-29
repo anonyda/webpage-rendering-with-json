@@ -77,21 +77,8 @@
   
   /* banner styling */
   .banner {
-    /* border: 2px solid black; */
     width: 100%;
-    /* padding-top: 60vh; */
     height: 90vh;
-    /* background-image: url("../images/banner2.png"); */
-    /* background-image: linear-gradient(to right, #f3fafe, #2f9ee5); */
-    /* background-image: linear-gradient(to left, #f3fafe, #2f9ee5); */
-    /* background-image: linear-gradient(#f3fafe98, #2f9fe552),
-      url("../images/banner2.png"); */
-    /* background-image: linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0.438),
-        rgba(0, 0, 0, 0.753)
-      ),
-      linear-gradient(to left, #f3fafe5e, #2f9fe55b), url("../images/banner2.png"); */
     background-image: linear-gradient(
         to right,
         rgba(255, 255, 255, 0.438),
@@ -144,13 +131,11 @@
     background-color: black;
     padding: 0 50px;
 
-    /* padding: 30px; */
   }
 
 
 
   .social-links ul{
-    /* width: 100%; */
     display: flex;
     list-style: none;
 
@@ -160,7 +145,6 @@
     margin: 20px;
     font-size: 25px;
 
-    /* color: wheat; */
   }
 
   a{

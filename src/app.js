@@ -18,9 +18,3 @@ fetch(dataURL)
     .catch((err) => {
         console.log(err);
     })
-
-
-
-// rootDiv.appendChild(NavigationBar());
-// // rootDiv.appendChild(Hamburger(hamburger));
-// rootDiv.appendChild(Banner(bannerData));

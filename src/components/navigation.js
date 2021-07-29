@@ -1,8 +1,7 @@
 import { Logo } from "./logo.js";
 import { NavLinks } from "./navLinks.js";
-// import { navData } from "../data/data.js";
 import { Hamburger } from "./hamburger.js";
-// import { hamburger } from "../data/data.js";
+
 
 export const NavigationBar = (data) =>{
     const markup = document.createElement('div');

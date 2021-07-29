@@ -9,7 +9,6 @@
     .open-nav {
       display: flex;
       width: 100%;
-      /* border: 2px solid red; */
       border-top: 1px solid black;
       flex-direction: column;
       justify-content: space-evenly;

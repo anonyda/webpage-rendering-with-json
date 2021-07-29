@@ -1,18 +1,4 @@
 
-// Footer Reference Markup
-/* <footer>
-    <div class="copy-right">
-        2021 Raw Engineering
-    </div>
-    <div class = "social-links">
-        <ul>
-            <li><i>   </i></li>
-            <li><i>   </i></li>
-            <li><i>   </i></li>
-        </ul>
-    </div>
-</footer> */
-
 export const Footer = (data) => {
     let markup = document.createElement('footer');
     let copyrightDiv = document.createElement('div');

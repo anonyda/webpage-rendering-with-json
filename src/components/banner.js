@@ -1,12 +1,3 @@
-/* <div class="banner">
-      <!-- <div class="banner-content"> -->
-      <h1 class="banner-heading">Company Name</h1>
-      <p class="banner-tagline">Some Tag line</p>
-      <a href="#" class="btn">Contact Us</a>
-      <!-- </div> -->
-    </div> */
-
-
 export const Banner = (props) => {
     let banner = document.createElement('div');
     banner.classList.add('banner');

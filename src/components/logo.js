@@ -1,7 +1,4 @@
-// data : {
-//     imageSrc: `${basePath}/surfboard-logo.png`,
-//     alt: "website logo",
-// },
+
 
 export const Logo = (data) =>{
     let markUp = document.createElement('div');
