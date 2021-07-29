@@ -20,7 +20,7 @@
     }
   
     .banner {
-      height: 60vh;
+      height: 90vh;
       text-align: center;
       align-items: center;
     }
@@ -28,4 +28,10 @@
     .banner-tagline {
       width: 80%;
     }
-} ;
+
+    footer{
+      flex-direction: column;
+    }
+
+    
+} 
